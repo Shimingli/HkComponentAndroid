@@ -6,13 +6,14 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
-import com.luojilab.router.facade.utils.RouteUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+
+import component.hk.com.componentlib.router.utils.RouteUtils;
 
 /**
  * Singleton implement of {@link IUIRouter}

@@ -10,6 +10,7 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+// todo  这里需要添加下
 //    javaCompileOptions {
 //        annotationProcessorOptions {
 //            arguments = [host: "app"]
@@ -31,8 +32,9 @@ android {
 }
 
 dependencies {
-//    compile project(':componentservice')
+    compile project(':hkcomponentservice')
     annotationProcessor 'com.luojilab.ddcomponent:router-anno-compiler:1.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 }
 
 combuild {

@@ -1,6 +1,6 @@
 package com.hk.component;
-
-
+import component.hk.com.basicres.BaseApplication;
+import component.hk.com.componentlib.UIRouter;
 
 /**
  * Created by mrzhang on 2017/6/15.
