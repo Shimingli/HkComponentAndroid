@@ -1,2 +1,4 @@
-include ':app', ':hkcomponentservice', ':componentlib', ':basiclib', ':basicres'
-         ':componentservice'
+include ':app', ':hkcomponentservice', ':componentlib', ':basiclib', ':basicres', ':componentone'
+
+
+

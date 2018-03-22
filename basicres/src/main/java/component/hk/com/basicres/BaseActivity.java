@@ -23,6 +23,6 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        ToastManager.show(this,"按个Activity可见了啊"+this.getClass().getSimpleName());
+        ToastManager.show(this,"那个Activity可见了啊"+this.getClass().getSimpleName());
     }
 }

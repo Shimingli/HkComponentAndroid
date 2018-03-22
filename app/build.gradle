@@ -9,13 +9,14 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        // todo  这里需要添加下
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [host: "app"]
+            }
     }
-// todo  这里需要添加下
-//    javaCompileOptions {
-//        annotationProcessorOptions {
-//            arguments = [host: "app"]
-//        }
-//    }
+
+    }
     buildTypes {
         release {
             minifyEnabled false

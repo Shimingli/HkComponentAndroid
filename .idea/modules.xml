@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/basiclib/basiclib.iml" filepath="$PROJECT_DIR$/basiclib/basiclib.iml" />
       <module fileurl="file://$PROJECT_DIR$/basicres/basicres.iml" filepath="$PROJECT_DIR$/basicres/basicres.iml" />
       <module fileurl="file://$PROJECT_DIR$/componentlib/componentlib.iml" filepath="$PROJECT_DIR$/componentlib/componentlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/componentone/componentone.iml" filepath="$PROJECT_DIR$/componentone/componentone.iml" />
       <module fileurl="file://$PROJECT_DIR$/hkcomponentservice/hkcomponentservice.iml" filepath="$PROJECT_DIR$/hkcomponentservice/hkcomponentservice.iml" />
     </modules>
   </component>
