@@ -9,8 +9,10 @@ import android.widget.Button;
 
 import component.hk.com.basicres.BaseActivity;
 import component.hk.com.componentlib.Router;
+import component.hk.com.componentlib.router.annotation.RouteNode;
 import component.hk.com.hkcomponentservice.readerbook.BaseServiceFragment;
 
+@RouteNode(path = "/main", desc = "首页")
 public class MainActivity extends BaseActivity implements View.OnClickListener {
     Fragment fragment;
     FragmentTransaction ft;
@@ -40,6 +42,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
          * 它只能看到componentservice中定义的ReadBookService，所以只能面向ReadBookService来编程。具体的实例代码如下：
          */
         Router router = Router.getInstance();
+        System.out.println("shiming BaseServiceFragment.class.getSimpleName()=="+BaseServiceFragment.class.getSimpleName());
         if (router.getService(BaseServiceFragment.class.getSimpleName()) != null) {
             BaseServiceFragment service = (BaseServiceFragment) router.getService(BaseServiceFragment.class.getSimpleName());
             fragment = service.getFragment();

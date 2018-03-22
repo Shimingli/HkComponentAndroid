@@ -7,14 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * <p><b>Package:</b> com.luojilab.component.componentlib.di.serviceimpl </p>
- * <p><b>Project:</b> DDComponentForAndroid </p>
- * <p><b>Classname:</b> DepInjectServiceImpl </p>
- * <p><b>Description:</b> implement of {@link AutowiredService},used to fetch
- * data from bundles in the intent</p>
- * Created by leobert on 2017/9/18.
- */
 
 public class AutowiredServiceImpl implements AutowiredService {
 

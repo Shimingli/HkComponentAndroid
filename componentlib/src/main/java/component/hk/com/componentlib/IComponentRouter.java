@@ -4,10 +4,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 
-/**
- * router behaviors for component type
- * Created by mrzhang on 2017/6/20.
- */
+
 public interface IComponentRouter {
 
     /**

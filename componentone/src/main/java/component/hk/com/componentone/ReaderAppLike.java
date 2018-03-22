@@ -1,8 +1,5 @@
 package component.hk.com.componentone;
 
-
-import com.luojilab.reader.serviceimpl.ReadBookServiceImplKotlin;
-
 import component.hk.com.componentlib.IApplicationLike;
 import component.hk.com.componentlib.Router;
 import component.hk.com.componentlib.UIRouter;

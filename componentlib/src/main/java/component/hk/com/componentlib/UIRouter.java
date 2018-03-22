@@ -15,12 +15,7 @@ import java.util.Map;
 
 import component.hk.com.componentlib.router.utils.RouteUtils;
 
-/**
- * Singleton implement of {@link IUIRouter}
- * provides services for UI-Component
- * <p>
- * Created by mrzhang on 2017/6/20.
- */
+
 
 public class UIRouter implements IUIRouter {
     private static Map<String, IComponentRouter> routerInstanceCache = new HashMap<>();

@@ -1,9 +1,4 @@
 package component.hk.com.componentlib;
-
-/**
- * Created by mrzhang on 2017/12/19.
- */
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;

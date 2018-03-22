@@ -2,6 +2,7 @@ apply plugin: 'com.dd.comgradle'
 
 android {
     compileSdkVersion 26
+    buildToolsVersion "26.0.1"
     defaultConfig {
         applicationId "com.hk.component"
         minSdkVersion 15
@@ -44,5 +45,5 @@ combuild {
 //    * 是否自动注册组件，true则会使用字节码插入的方式自动注册代码
 //    * false的话，需要手动使用反射的方式来注册
 //    */mainmodulename的module，其isRunAlone永远是true。
-    isRegisterCompoAuto = true
+    isRegisterCompoAuto = false
 }

@@ -16,9 +16,6 @@ import component.hk.com.hkcomponentservice.share.bean.Author;
 import component.hk.com.hkcomponentservice.share.bean.AuthorKt;
 
 
-/**
- * Created by mrzhang on 2017/6/15.
- */
 
 /**
  * 接口+实现的方式，组件之间完全面向接口编程。
@@ -37,27 +34,27 @@ public class ReaderFragment extends Fragment {
             rootView = inflater.inflate(R.layout.readerbook_fragment_reader, container,
                     false);
 
-            rootView.findViewById(R.id.tv_1).setOnClickListener(new View.OnClickListener() {
-
-                @Override
-                public void onClick(View v) {
-                    goToShareActivityWithBundle();
-                }
-            });
-            rootView.findViewById(R.id.tv_2).setOnClickListener(new View.OnClickListener() {
-
-                @Override
-                public void onClick(View v) {
-                    goToShareActivityWithUri();
-                }
-            });
-            rootView.findViewById(R.id.tv_3).setOnClickListener(new View.OnClickListener() {
-
-                @Override
-                public void onClick(View v) {
-                    goToShareActivityForResult();
-                }
-            });
+//            rootView.findViewById(R.id.tv_1).setOnClickListener(new View.OnClickListener() {
+//
+//                @Override
+//                public void onClick(View v) {
+//                    goToShareActivityWithBundle();
+//                }
+//            });
+//            rootView.findViewById(R.id.tv_2).setOnClickListener(new View.OnClickListener() {
+//
+//                @Override
+//                public void onClick(View v) {
+//                    goToShareActivityWithUri();
+//                }
+//            });
+//            rootView.findViewById(R.id.tv_3).setOnClickListener(new View.OnClickListener() {
+//
+//                @Override
+//                public void onClick(View v) {
+//                    goToShareActivityForResult();
+//                }
+//            });
 
         }
         return rootView;

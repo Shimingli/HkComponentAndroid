@@ -37,6 +37,8 @@ public class Router {
         if (serviceName == null || serviceImpl == null) {
             return;
         }
+        System.out.println("shiming  addService"+serviceName);
+        System.out.println("shiming  serviceImpl"+serviceImpl);
         services.put(serviceName, serviceImpl);
     }
 

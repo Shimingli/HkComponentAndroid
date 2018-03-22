@@ -1,7 +1,6 @@
-package com.luojilab.reader.serviceimpl
+package component.hk.com.componentone
 
 import android.support.v4.app.Fragment
-import component.hk.com.componentone.ReaderFragment
 import component.hk.com.hkcomponentservice.readerbook.BaseServiceFragment
 
 

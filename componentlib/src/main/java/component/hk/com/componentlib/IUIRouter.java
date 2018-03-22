@@ -1,9 +1,6 @@
 package component.hk.com.componentlib;
 
-/**
- * router behaviors for component type, sub of {@link IComponentRouter}
- * Created by mrzhang on 2017/6/20.
- */
+
 
 public interface IUIRouter extends IComponentRouter {
 

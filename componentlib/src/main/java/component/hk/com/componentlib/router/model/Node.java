@@ -7,13 +7,6 @@ import java.util.Map;
 //import javax.lang.model.element.Element;
 import component.hk.com.componentlib.router.enums.NodeType;
 
-/**
- * <p><b>Package:</b> com.luojilab.router.facade.model </p>
- * <p><b>Project:</b> DDComponentForAndroid </p>
- * <p><b>Classname:</b> Node </p>
- * <p><b>Description:</b> TODO </p>
- * Created by leobert on 2017/9/19.
- */
 
 public class Node {
     private NodeType nodeType;

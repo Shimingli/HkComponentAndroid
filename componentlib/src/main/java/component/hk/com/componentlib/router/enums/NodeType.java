@@ -1,13 +1,5 @@
 package component.hk.com.componentlib.router.enums;
 
-/**
- * <p><b>Package:</b> com.luojilab.router.facade.enums </p>
- * <p><b>Project:</b> DDComponentForAndroid </p>
- * <p><b>Classname:</b> NodeType </p>
- * <p><b>Description:</b> TODO </p>
- * Created by leobert on 2017/9/19.
- */
-
 public enum NodeType {
     ACTIVITY(0, "android.app.Activity"),
     INVALID(-1,"invalid node type, currently only activity allowed");
