@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Demo.iml" filepath="$PROJECT_DIR$/Demo.iml" />
+      <module fileurl="file://C:\Users\haoku\Desktop\github\HkComponentAndroid\Demo.iml" filepath="C:\Users\haoku\Desktop\github\HkComponentAndroid\Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HkComponentAndroid.iml" filepath="$PROJECT_DIR$/.idea/HkComponentAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\haoku\Desktop\github\HkComponentAndroid\app\app.iml" filepath="C:\Users\haoku\Desktop\github\HkComponentAndroid\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/basiclib/basiclib.iml" filepath="$PROJECT_DIR$/basiclib/basiclib.iml" />
+      <module fileurl="file://C:\Users\haoku\Desktop\github\HkComponentAndroid\basiclib\basiclib.iml" filepath="C:\Users\haoku\Desktop\github\HkComponentAndroid\basiclib\basiclib.iml" />
       <module fileurl="file://$PROJECT_DIR$/basicres/basicres.iml" filepath="$PROJECT_DIR$/basicres/basicres.iml" />
+      <module fileurl="file://C:\Users\haoku\Desktop\github\HkComponentAndroid\basicres\basicres.iml" filepath="C:\Users\haoku\Desktop\github\HkComponentAndroid\basicres\basicres.iml" />
       <module fileurl="file://$PROJECT_DIR$/componentlib/componentlib.iml" filepath="$PROJECT_DIR$/componentlib/componentlib.iml" />
+      <module fileurl="file://C:\Users\haoku\Desktop\github\HkComponentAndroid\componentlib\componentlib.iml" filepath="C:\Users\haoku\Desktop\github\HkComponentAndroid\componentlib\componentlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/componentone/componentone.iml" filepath="$PROJECT_DIR$/componentone/componentone.iml" />
+      <module fileurl="file://C:\Users\haoku\Desktop\github\HkComponentAndroid\componentone\componentone.iml" filepath="C:\Users\haoku\Desktop\github\HkComponentAndroid\componentone\componentone.iml" />
       <module fileurl="file://$PROJECT_DIR$/hkcomponentservice/hkcomponentservice.iml" filepath="$PROJECT_DIR$/hkcomponentservice/hkcomponentservice.iml" />
+      <module fileurl="file://C:\Users\haoku\Desktop\github\HkComponentAndroid\hkcomponentservice\hkcomponentservice.iml" filepath="C:\Users\haoku\Desktop\github\HkComponentAndroid\hkcomponentservice\hkcomponentservice.iml" />
     </modules>
   </component>
 </project>
